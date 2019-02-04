@@ -84,7 +84,9 @@ __Response Body__
         "posCategory": string,
         "unit": string,
         "igvVal": double,
-        "operacion": long
+        "operacion": long,
+        "mimetype": string,
+        "preRuta": string
     }
 ]
 ```
@@ -100,7 +102,9 @@ Example:
         "posCategory": "POLLO",
         "unit": "kg",
         "igvVal": 1.37,
-        "operacion": 10
+        "operacion": 10,
+        "mimetype": "image/png",
+        "preRuta": "6d/6dc8eb7fe4d98f1f3d3c0fbfed12b3e3fd5c6495"
     },
     ...
 ]
